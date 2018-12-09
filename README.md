@@ -1,4 +1,4 @@
-# terraform-eks-cloudeks
+# Terraform-eks-cloudeks
 
 The sample architecture introduced here includes the following resources:
 
@@ -7,7 +7,7 @@ The sample architecture introduced here includes the following resources:
 * Associated VPC, Internet Gateway, Security Groups, and Subnets: Operator managed networking resources for the EKS Cluster and worker node instances
 * Associated IAM Roles and Policies: Operator managed access resources for EKS and worker node instances
 
-## deploying EKS on AWS using terraform:
+## Deploying EKS on AWS using Terraform:
 ```bash
 terraform init
 terraform deploy
@@ -35,7 +35,7 @@ kubectl apply -f aws-auth.yml
 kubectl config view
 ```
 
-Now you can manage EKS cluster using Kubectl..
+Now you can manage EKS cluster using Kubectl.
 
 ## Useful commands:
 

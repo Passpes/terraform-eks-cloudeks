@@ -17,9 +17,9 @@ terraform deploy
 ### Install folowing tools:
 Requirements after deployment to manage K8s Cluster
 
- * [AWS Client Install] (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
- * [Kubernetes Client Install Guide] (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
- * [AWS IAM Authenticator] (https://github.com/kubernetes-sigs/aws-iam-authenticator)
+ * [AWS Client Install](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+ * [Kubernetes Client Install Guide](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+ * [AWS IAM Authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator)
 
 ## Following command allow you to manage EKS using Kubectl:
 
